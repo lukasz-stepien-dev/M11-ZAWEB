@@ -1,0 +1,27 @@
+#main {
+    width: 69.5%;
+    background-color: #eeeeee;
+}
+
+.content {
+    padding: 20px;
+    margin: 100px 20px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #000000;
+
+}
+
+.content h2 {
+    margin: 20px;
+    color: orange;
+}
+
+.content h3 {
+    font-weight: normal;
+    margin: 20px;
+    color: lightgray;
+}
+
+.content p {
+    margin: 50px;
+}
