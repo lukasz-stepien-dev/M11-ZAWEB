@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.Section {
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.Section h2 {
+    font-weight: normal;
+    text-align: left;
+}
+
+.Section p {
+    text-align: left;
+}
+
+.Section {
+    border-bottom: 1px solid white;
+}
+
+.center {
+    text-align: center;
+}

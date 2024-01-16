@@ -1,0 +1,21 @@
+section {
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+section:last-child {
+    margin-bottom: 100px;
+
+}
+
+.flex-evenly {
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flex-evenly .Section:first-child {
+    border-right: 1px solid white;
+}
+
