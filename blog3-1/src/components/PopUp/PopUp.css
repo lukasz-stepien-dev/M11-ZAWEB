@@ -1,0 +1,14 @@
+.PopUp {
+    position: absolute;
+    background-color: #131654;
+    color: white;
+    text-align: center;
+    border-radius: 50px;
+
+}
+
+.PopUp p {
+    font-weight: bold;
+    margin: 0;
+    padding: 5px 10px;
+}

@@ -1,0 +1,14 @@
+.Layout {
+    background-color: white;
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Layout p {
+    margin: 0;
+    font-weight: bold;
+    padding: 5px;
+}

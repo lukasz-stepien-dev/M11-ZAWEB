@@ -1,0 +1,20 @@
+.Post {
+    width: 100%;
+    margin: 20px;
+    height: 150px;
+}
+
+.Post h2 {
+    background-color: #131654;
+    color: white;
+    text-align: center;
+    margin: 1%;
+    font-size: 20px;
+    padding: 1%;
+}
+
+.Post p {
+    background-color: white;
+    margin: 1%;
+    padding: 2% 5%;
+}
