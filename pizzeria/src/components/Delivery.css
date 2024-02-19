@@ -1,0 +1,6 @@
+.delivery {
+    width: 100%;
+    background-color: var(--lightGreen);
+    text-align: center;
+    padding-bottom: 30px;
+}

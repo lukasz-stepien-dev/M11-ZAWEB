@@ -1,0 +1,11 @@
+header {
+    font-size: small;
+    color: var(--yellow);
+    width: 33.3%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin: 0 33.3%;
+    background-color: var(--darkGreen);
+}

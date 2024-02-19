@@ -1,0 +1,12 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: var(--lightGreen);
+    width: 33.3%;
+    height: 400px;
+}
+
+main img {
+    margin-left: 40%;
+}
