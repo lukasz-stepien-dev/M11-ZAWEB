@@ -1,0 +1,22 @@
+.about-us {
+    background-color: lightblue;
+    width: 25%;
+    text-align: center;
+}
+
+.about-us h2 {
+    margin: 10px;
+}
+
+.about-us .images {
+    display: flex;
+    border: 1px solid green;
+    width: 200px;
+    margin: 20px auto;
+}
+
+
+.about-us a {
+    width: 100%;
+    text-align: center;
+}

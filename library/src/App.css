@@ -1,0 +1,9 @@
+.App {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.userForm {
+    margin: 0;
+    width: 50%
+}
