@@ -1,0 +1,16 @@
+.recommended {
+    padding: 20px;
+    background-color: aqua;
+    color: white;
+    width: 25%;
+    height: 500px;
+}
+
+.recommended ol {
+    margin-left: -30px;
+}
+
+.recommended h2 {
+    text-align: center;
+    margin: 10px;
+}
