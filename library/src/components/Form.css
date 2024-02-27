@@ -1,12 +1,11 @@
 .form {
     background-color: lightblue;
-    width: 50%;
     height: 300px;
 }
 
 .form h2 {
     text-align: center;
-    margin: 20px;
+    padding-top: 10px;
 }
 
 .form input[type="text"] {
