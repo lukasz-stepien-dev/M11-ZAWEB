@@ -1,0 +1,27 @@
+{
+  "header": {
+    "title": "POGOTOWIE KOMPUTEROWE",
+    "images": ["/mouse1.png", "/mouse2.png"]
+  },
+  "aboutUs": {
+    "title": "Kim jesteśmy?",
+    "text": "Jesteśmy firmą z wieloletnim doświadczeniem w zakresie IT."
+  },
+  "services": {
+    "title": "Co robimy?",
+    "items": [
+      "naprawiamy komputery stacjonarne i laptopy",
+      "odzyskujemy dane",
+      "usuwamy problemy z oprogramowaniem",
+      "konfigurujemy sieci LAN",
+      "wiele więcej"
+    ]
+  },
+  "features": {
+    "title": "Co nas cechuje?",
+    "text": "Doświadczenie, niezawodność, konkurencyjne ceny."
+  },
+  "footer": {
+    "text": "Autor strony: Łukasz Stępień"
+  }
+}
