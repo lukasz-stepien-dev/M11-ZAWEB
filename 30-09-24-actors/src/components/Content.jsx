@@ -1,7 +1,7 @@
 import rowanImg from '../img/Rowan_Atkinson.jpg';
 import leslieImg from '../img/Leslie_Nielsen.jpg';
 
-const content = [
+const Content = [
     {
         image: rowanImg,
         firstName: 'Rowan',
@@ -19,3 +19,5 @@ const content = [
         bioUrl: 'https://en.wikipedia.org/wiki/Leslie_Nielsen',
     }
 ]
+
+export default Content;

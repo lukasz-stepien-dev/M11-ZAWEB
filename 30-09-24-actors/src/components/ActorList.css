@@ -1,0 +1,12 @@
+p {
+    font-weight: bolder;
+    font-size: 32px;
+    margin: 0;
+}
+
+img {
+    height: 200px;
+    width: 120px;
+    object-fit: cover;
+    padding: 5px;
+}
