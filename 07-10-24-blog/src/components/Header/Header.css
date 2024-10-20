@@ -1,0 +1,31 @@
+header {
+    padding: 15px 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #d6f9ed;
+    border-radius: 15px;
+}
+
+header h1 {
+    color: #f5356c;
+}
+
+nav a {
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+nav .blog {
+    background-color: #f5356c;
+}
+
+nav .gallery {
+    background-color: #2a9fee;
+}

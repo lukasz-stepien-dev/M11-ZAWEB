@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 10px;
+  border: 2px solid #f5356c;
+  border-radius: 15px;
+  height: 97vh;
+}
