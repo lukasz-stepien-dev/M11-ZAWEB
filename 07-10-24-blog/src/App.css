@@ -2,7 +2,7 @@
   margin: 0;
 }
 
-.content {
+.blogim {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -10,4 +10,13 @@
   border: 2px solid #f5356c;
   border-radius: 15px;
   height: 97vh;
+  width: 95%;
+  background-color: white;
+}
+
+.content {
+  padding: 1px;
+  background-color: #cccccc;
+  margin: 0;
+  width: 80%;
 }

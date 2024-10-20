@@ -1,0 +1,43 @@
+.blogs {
+    margin-top: 20px;
+    overflow-y: auto;
+    height: 75vh;
+}
+
+.blogs h2 {
+    margin-left: 6%;
+    font-weight: normal;
+    margin-top: 50px;
+}
+
+hr {
+    margin: 5px 5%;
+    background-color: #f5356c;
+    height: 1px;
+    border: none;
+}
+
+.blogs .blog {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #d6f9ed;
+    margin: 10px 5%;
+}
+
+.blog-info {
+    padding: 10px;
+}
+
+.blog-info h3 {
+    color: #f5356c;
+}
+
+.blog p {
+    color: #747474;
+    margin-top: 10px;
+}
+
+.blog p:last-child {
+    margin-top: 20px;
+}

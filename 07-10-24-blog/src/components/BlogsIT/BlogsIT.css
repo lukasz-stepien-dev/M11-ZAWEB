@@ -1,0 +1,27 @@
+.blogs-IT {
+    position: absolute;
+    background-color: white;
+    padding: 15px;
+    margin: 100px 75vw;
+}
+
+.blogIT {
+    margin: 10px 0;
+    padding: 10px;
+    height: auto;
+    width: 250px;
+    background-color: #b9f0f6;
+    border-radius: 10px;
+    border: 2px solid #34545a;
+
+}
+
+.blogIT h4 {
+    font-size: 20px;
+    color: #34545a;
+}
+
+.blogIT p {
+    font-size: 14px;
+    margin-top: 20px;
+}
