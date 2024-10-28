@@ -1,0 +1,14 @@
+.posts {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+.post {
+    margin: 2%;
+    padding: 2%;
+    width: 40%;
+    border: #f5356c 5px double;
+    border-radius: 10% / 5%;
+}
