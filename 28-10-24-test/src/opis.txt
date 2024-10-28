@@ -1,0 +1,13 @@
+Stosujemy komponenty, propsy, funkcje map dla powtarzających się elementów. Tablica jako przechowanie kontentu.
+
+3 komponenty: Naglowek (3),środkowy kontent(1) i dolny kontent(2)
+
+Powtarza się środek i dolny kontent
+
+----
+
+Obrazki wstawiamy do okienek w wierszu jeden (1), zamiast czarnych okienek i tekstu w tych okienkach, dajemy zdjecia
+
+Do automatyzacji na elementach powtarzających się, tj: środkowy kontent(1) i dolny kontent(2), używamy funkcji map
+
+ kontentu.
