@@ -1,0 +1,11 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: brown;
+}
+
+.photo {
+    height: 100px;
+    margin: 10px;
+}

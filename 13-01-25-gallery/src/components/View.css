@@ -1,0 +1,15 @@
+.view {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: burlywood;
+}
+
+.viewing-photo {
+    width: 600px;
+    margin: 20px;
+}
+
+.arrow {
+    margin: 50px;
+}
