@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { format } from 'date-fns';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const roles = ['Aktor', 'Reżyser', 'Operator', 'Inni'];
@@ -21,9 +22,7 @@ export default function CrewManager() {
 
   const handleAdd = () => {
     if (!form.firstName || !form.lastName || !form.role) return;
-    const date = new Date();
-    const pad = n => n.toString().padStart(2, '0');
-    const now = `${date.getFullYear()}-${pad(date.getMonth()+1)}-${pad(date.getDate())} ${pad(date.getHours())}:${pad(date.getMinutes())}:${pad(date.getSeconds())}`;
+    const now = format(new Date(), 'yyyy-MM-dd HH:mm:ss');
     setCrew([
       ...crew,
       { ...form, addedDate: now, modifiedDate: null, isChecked: false, isEdited: false, isModified: false }
@@ -176,6 +175,7 @@ export default function CrewManager() {
                   onClick={() => setSortAsc("asc")}
               >↑</button>
               <button
+
                   className={`btn btn-outline-primary btn-sm ${sortAsc === "desc" ? 'active' : ''}`}
                   onClick={() => setSortAsc("desc")}
               >↓</button>
@@ -260,7 +260,7 @@ export default function CrewManager() {
                                         setCrew(crew.map(person => person === p ? {
                                             ...person,
                                             ...editForm,
-                                            modifiedDate: new Date().toISOString().split('T')[0] + ' ' + new Date().getHours() + ':' + new Date().getMinutes() + ':' + new Date().getSeconds(),
+                                            modifiedDate: format(new Date(), 'yyyy-MM-dd HH:mm:ss'),
                                             isEdited: false,
                                             isModified: true,
                                         } : person));
